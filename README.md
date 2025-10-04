@@ -2,6 +2,10 @@
 
 Buffoon is an agent orchestration platform that provisions sandbox containers, coordinates FastAPI services, and surfaces results through a Next.js dashboard built with the Geist design system.
 
+> **Clarification**
+>
+> There are public repositories on GitHub that use the "Buffoon" name for unrelated low-level security research. This project is **not** a UEFI bootkit and does not contain firmware-level persistence mechanisms or offensive security tooling. All source code in this repository implements a cloud-native, multi-agent orchestration stack built with FastAPI, Next.js, and supporting sandbox services.
+
 ## Architecture
 
 - **Frontend**: Next.js 13 + TypeScript UI using Geist components for accessible, responsive layouts.
