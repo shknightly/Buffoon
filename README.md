@@ -31,6 +31,10 @@ Buffoon is an agent orchestration platform that provisions sandbox containers, c
    ./scripts/dev.sh
    ```
 
+## Additional Documentation
+
+- [Agent Config Quickstart](docs/agent-config-quickstart.md) — step-by-step guide for authoring and running YAML-defined ADK agents with Gemini support.
+
 ## API Overview
 
 - `GET /health/` — health check endpoint.
