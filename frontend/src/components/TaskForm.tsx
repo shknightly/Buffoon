@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { FormEvent, useState } from 'react';
 import { Button, Card, Grid, Input, Spacer, Text } from '@geist-ui/core';
 import { submitTask } from '../utils/api';
 
@@ -11,7 +11,7 @@ export default function TaskForm({ onSubmitted }: TaskFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!description.trim()) {
       setError('A task description is required to run an agent.');
