@@ -1,0 +1,17 @@
+# Node
+node_modules/
+.next/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Docker
+*.log
+
+# Sandbox artifacts
+sandbox/storage/sessions/
+/tmp/buffoon-result.json

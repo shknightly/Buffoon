@@ -1,0 +1,11 @@
+{
+  "name": "@buffoon/utilities",
+  "version": "0.1.0",
+  "main": "logger.ts",
+  "types": "logger.ts",
+  "license": "MIT",
+  "dependencies": {
+    "pino": "8.17.0",
+    "pino-pretty": "10.2.0"
+  }
+}

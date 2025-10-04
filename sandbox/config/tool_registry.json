@@ -1,0 +1,5 @@
+{
+  "browser": ["sandbox.tools.browser.navigate.fetch_page", "sandbox.tools.browser.extract.extract_links"],
+  "file": ["sandbox.tools.file.read.read_text", "sandbox.tools.file.write.write_text"],
+  "shell": ["sandbox.tools.shell.execute.run_command", "sandbox.tools.shell.list_dir.list_directory"]
+}

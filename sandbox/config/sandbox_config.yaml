@@ -1,0 +1,4 @@
+image: python:3.11-slim
+workdir: /app
+result_path: /tmp/buffoon-result.json
+max_execution_seconds: 300
